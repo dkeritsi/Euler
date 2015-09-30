@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include "/home/dk0218/projecteuler_C/utl/sum_divisors.h"
+
+int main(void){
+  int i, divisor =0;
+  int SUM=0;
+  int check =0;
+  int check2=0;
+  
+  for (i=1; i<300; i++){
+    check=divisors(i);
+    if(divisors(check)==i){
+      printf("%i and %i and amicable\n",i,check);
+      }
+    }
+  }
